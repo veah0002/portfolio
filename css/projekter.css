@@ -1,0 +1,16 @@
+
+/* projekter */
+.tekst_projekter {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  flex-direction: column;
+  padding: 100px;
+  margin: px;
+  font-size: 100;
+  color: black;
+}
+
+.header_projekter {
+  margin: 0px;
+  padding: 0px;
+}

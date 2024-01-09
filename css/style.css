@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+ul {
+  list-style: none;
+}
+/* skrift */
+
+a {
+  text-decoration: none;
+}
+@font-face {
+  font-family: ad;
+  src: url(/fonte/ADLaMDisplay-Regular.ttf);
+}
+@font-face {
+  font-family: cave;
+  src: url(/fonte/Caveat-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: lora;
+  src: url(/fonte/lora-italic-variablefont_wght-webfont.woff2);
+}
+@font-face {
+  font-family: mon;
+  src: url(/fonte/montserrat-italic-variablefont_wght-webfont.woff2);
+}
+@font-face {
+  font-family: lorav;
+  src: url(/fonte/lora-variablefont_wght-webfont.woff2);
+}
+@font-face {
+  font-family: monv;
+  src: url(/fonte/montserrat-variablefont_wght-webfont.woff2);
+}
+
+p {
+  font-family: loras;
+}
+
+h1 {
+  font-family: lora;
+  font-size: large;
+}
+
+.tekst_index {
+  font-family: lora;
+  font-variant: small-caps;
+}
+
+.tekst_projekter {
+  font-family: Lora;
+  font-size: xx-large;
+  font-variant: small-caps;
+}
+.header_projekter {
+  font-family: lora;
+  font-size: medium;
+  font-variant: small-caps;
+}
+.tt {
+  font-family: lora;
+  font-size: medium;
+  font-variant: small-caps;
+}
+/* billeder */
+.img_tema {
+  width: 100%;
+  height: 100%„;
+}
+
+/* footer  */
+footer {
+  background-color: #d3dce7;
+  margin: 0 auto;
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  text-align: right;
+}
+.skriftf {
+  margin: 30px;
+  margin-right: 0;
+}
+
+.logof {
+  align-items: center;
+  margin: 0;
+  padding-bottom: 40px;
+}
+
+.textf {
+  padding: 60px;
+  text-align: right;
+}
+
+li {
+  margin-bottom: 30px;
+}
